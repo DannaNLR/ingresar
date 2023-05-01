@@ -1,0 +1,68 @@
+/* centrol universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fondo de la pagina web */
+body{
+    height: 86vh;
+    background: url(imagenes/img1.jpeg) no-repeat;
+    background-size: cover;
+
+}
+/* cambios y darle forma y aspecto a donde van los controles y botones */
+form{
+    background-color: rgba(0, 0, 0, 0.689);
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    margin: 100px 500px;
+}
+/* cambios en el titulo de registrar y iniciar sesion */
+form h4{
+    margin-right: 20px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+/* cambios en el aspecto donde se coloca la informacion */
+.controls{
+    margin: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #ffffff;
+    text-decoration: none
+}
+/* cambios al aspecto del boton */
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.536);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 150px;
+}
+
+/* permite ver el botton en su segunda imagen */
+button:hover {
+    background-color: #00ff99;
+    box-shadow: 0px 15px 20px rgba(23, 255, 162, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}

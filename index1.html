@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <!-- realizar un formulario -->
+    <form action="" id="inicio"><h4>INICIO DE SESION</h4>
+        <!-- botones de ingreso de datos con nombre tipo de dato y clase -->
+        <div class="email">
+            <label for="email">Correo institucional <input class="controls" type="mail" id="email" placeholder="Ingrese correo institucional"/></label>
+            <p class="error"></p>
+        </div>
+        <div class="password">
+            <label for="password">Contraseña <input class="controls" type="password" id="password" placeholder="Ingrese contraseña"></label>
+            <p class="error"></p>
+        </div>
+        <div class="registro"><p>¿Aun no te haz registrado?</p><a href="index2.html">Registarse</a></div>
+        <button type="button" onclick="iniciarsesion()">Ingresar</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>

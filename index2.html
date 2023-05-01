@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <!-- realizar un formulario -->
+    <form action="" id="formulario"><h4>INGRESO DE DATOS</h4>
+        <!-- botones de ingreso de datos con nombre tipo de dato y clase -->
+        <div class="Name">
+            <label for="myname">Nombres <input class="controls" type="text" id="Name" placeholder="Ingrese nombres"/></label>
+            <p class="error"></p>
+        </div>
+        <div class="Surname">
+            <label for="surname">Apellidos <input class="controls" type="text" id="Surname" placeholder="Ingrese apellidos"/></label>
+            <p class="error"></p>
+        </div>
+        <div class="email">
+            <label for="email">Correo electrónico <input class="controls" type="mail" id="email" placeholder="Ingrese correo"/></label>
+            <p class="error"></p>
+        </div>
+        <div class="mobile">
+            <label for="tel">Teléfono Móvil <input class="controls" type="tel" id="mobile" placeholder="Ingrese numero de telefono"/></label>
+            <p class="error"></p>
+        </div>
+        <div class="password">
+            <label for="password">Contraseña <input class="controls" type="password" id="password" placeholder="Ingrese contraseña"></label>
+            <p class="error"></p>
+        </div>
+        <div class="registro"><p>¿Ya tienes cuenta?</p><a href="index1.html">Registarse</a></div>
+        <button type="button" onclick="registro()">Registrarse</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
